@@ -1,0 +1,168 @@
+body {
+    background-image: url(images/bg-main-desktop.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 13px;
+    color: hsl(278, 68%, 11%);
+    letter-spacing: 1px;
+}
+
+.cardimages {
+    width: 550px;
+    height: 550px;
+    position: absolute;
+    left: 150px;
+    top: 200px;
+}
+
+#card1 {
+    position: absolute;
+}
+
+#card2 {
+    position: absolute;
+    top: 280px;
+    right:0;
+}
+
+.cardlogo {
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+.cardtext {
+    position: absolute;
+    color: white;
+}
+
+.text1 {
+    left: 50px;
+    top: 130px;
+    font-size: 30px;
+}
+
+.text2 {
+    left: 50px;
+    top: 190px;
+}
+
+.text3 {
+    right: 172px;
+    top: 190px;
+}
+
+.text4 {
+    right: 149px;
+    top: 190px;
+}
+
+.text5 {
+    top: 390px;
+    right: 60px;
+}
+
+.text6 {
+    right: 167px;
+    top: 190px;
+}
+
+.userinput {
+   position: absolute;
+   left: 850px; 
+   top: 300px;
+}
+
+.container3 {
+    float: left;
+    width: 170px;
+    margin-right: 20px;
+}
+
+.inputlabel {
+    margin: 20px 0 3px 0;
+}
+
+.blank1 {
+    width: 350px;
+}
+
+.blank2 {
+    width: 63px;
+}
+
+.blank3 {
+    position: absolute;
+    right: 0;
+    width: 170px;
+}
+
+input {
+    border:solid 1px hsl(270, 3%, 87%);
+    border-radius: 8px;
+
+    height: 30px;
+
+    padding: 0.2rem 0 0.2rem 0.8rem;
+
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 15px;
+    color: hsl(278, 68%, 11%);
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid transparent;
+    background-image: linear-gradient(#fff, #fff), 
+    linear-gradient(to right, hsl(249, 99%, 64%), hsl(278, 94%, 30%));
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+}
+
+input::placeholder {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 15px;
+    color: hsl(270, 3%, 87%);
+}
+
+form.was-validated input:invalid {
+    border-color: red;
+}
+
+button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 30px 0;
+  padding: 0.5rem 1rem;
+
+  background-color: hsl(278, 68%, 11%);
+  color: white;
+
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 1px;
+
+  width: 370px;
+  height: 50px;
+
+  border: none;
+  border-radius: 8px;
+}
+
+button:hover {
+    background-color: hsl(279, 6%, 55%);
+    color: hsl(278, 68%, 11%);
+}
+
+.completeCircle {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
+}
